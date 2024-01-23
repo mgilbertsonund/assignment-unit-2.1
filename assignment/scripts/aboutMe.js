@@ -21,7 +21,7 @@ let introduction = 'My name is ' + fullName + ', and I think ' + luckyNumber + '
 console.log(introduction);
 // 6 - Create a variable named `adventurous` and set it to a boolean value (true or false)
 //     Console log the value of `adventurous`
-let adventurous = true;
+let adventurous = false;
 console.log(adventurous);
 // 7 - Create a variable named `food`, and set its value to a string of your favorite food
 //     Console log the value of `food`
@@ -42,7 +42,7 @@ const allowedPets = 4;
 //      if it's not true,  set `result` to be "How about we stay home?"
 //      Console log the value of `result`
 let result;
-if (adventurous = true) {
+if (adventurous === true) {
   result = 'Adventures are great!';
 } else {
   result = 'How about we stay home?';
@@ -116,9 +116,8 @@ switch (luckyResult) {
     console.log('Luck is what happens when preparation meets opportunity')
 }
 // 17 -- Rewrite question 12 with a `ternary` operator. You'll need to do research!
-
-
-
+result === true ? 'Adventures are great!' : 'How about we stay home?';
+console.log(result)
 
 
 
