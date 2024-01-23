@@ -98,7 +98,7 @@ console.log(mostPets);
 //      Otherwise, "Luck is what happens when preparation meets opportunity"
 //      You'll need to research how to use switch statements!
 //      console.log `luckyResult` after the conditional has run.
-let luckyResult = 3;
+let luckyResult = 4;
 switch (luckyResult) {
   case 1: 
     luckyResult = 'First is the worst';
@@ -106,18 +106,19 @@ switch (luckyResult) {
     break;
   case 2:
     luckyResult = 'Second is the best';
-    console.log(luckyResult)
+    console.log(luckyResult);
     break;
   case 3:
-    luckyResult = 'Third is the one with the polka dot dress'
-    console.log(luckyResult)
+    luckyResult = 'Third is the one with the polka dot dress';
+    console.log(luckyResult);
     break;
   default:
-    console.log('Luck is what happens when preparation meets opportunity')
+    luckyResult = 'Luck is what happens when preparation meets opportunity';
+    console.log(luckyResult);
 }
 // 17 -- Rewrite question 12 with a `ternary` operator. You'll need to do research!
 result === true ? 'Adventures are great!' : 'How about we stay home?';
-console.log(result)
+console.log(result);
 
 
 
